@@ -6,7 +6,7 @@ implemetation of metaGAN on mini-Imagenet
 * loss function
 * wasserstein GAN-GP
 
-### result ###
+### result on mini-Imagenet ###
 
 |model         | 5-way Acc|        | 20-way Acc|        | 
 |:-----:       | :-------:| :--:   |:---------:|:---:   |
@@ -14,8 +14,10 @@ implemetation of metaGAN on mini-Imagenet
 |MAML (paper)  | 48.7%      | 63.11%   | 16.49%      | 19.29% |
 |MAML (ours)   | 45.56%     | -        |  -          | -      | 
 |metaGAN + MAML| 48.87%     | -        |  -          |  -     |
-|metaGAN + RN  | -          |     -    |    -        |        |
-|meta SN-GAN   |   -        |  -       | -           | -      | 
+| RN (paper)          |  50.44%    | 65.32%   |  -          |  -     |
+| RN (ours)    |     -       |      -    |     -        |     -   |
+|metaGAN + RN  | -           |     -     |    -         |         |
+|meta SN-GAN   |   -         |  -        | -            | -       | 
 
 
 ### reference ###
