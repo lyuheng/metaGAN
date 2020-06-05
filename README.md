@@ -8,13 +8,14 @@ implemetation of metaGAN on mini-Imagenet
 
 ### result ###
 
-|model      | 5-way Acc|        | 20-way Acc|        | 
-|:-----:    | :-------:| :--:   |:---------:|:---:   |
-|           | 1-shot   | 5-shot | 1-shot    | 5-shot |
-|MAML       | 48.7%    | 63.11% | 16.49%    | 19.29% |
-|MAML (ours)| 45.56%   | -      |  -        | -      | 
-|metaGAN    |   -      | -      |  -        |  -     |
-|meta SN-GAN|   -      |  -     | -         | -      | 
+|model         | 5-way Acc|        | 20-way Acc|        | 
+|:-----:       | :-------:| :--:   |:---------:|:---:   |
+|              | 1-shot      | 5-shot    | 1-shot       | 5-shot |
+|MAML (paper)  | 48.7%      | 63.11%   | 16.49%      | 19.29% |
+|MAML (ours)   | 45.56%     | -        |  -          | -      | 
+|metaGAN + MAML| 48.87%     | -        |  -          |  -     |
+|metaGAN + RN  | -          |     -    |    -        |        |
+|meta SN-GAN   |   -        |  -       | -           | -      | 
 
 
 ### reference ###
